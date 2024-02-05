@@ -1,0 +1,380 @@
+
+.menu{
+    width: 35%;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+/* Dropdown */
+.menu li{
+    position: relative;
+}
+.menu li ul{
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+.menu li ul li{
+    list-style: none;
+}
+.menu li ul li a{
+    padding:15px 5px;
+    display: block;
+}
+.menu li ul li a:hover{}
+.menu li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.menu li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-5px);
+    box-shadow: 0 1px 15px 2px rgba(0, 0, 0, 0.226) ;
+}
+
+/* Dropdown End */
+
+.header-right{
+    width: 40%;
+}
+
+.header-search span{
+    line-height: 65px;
+    font-weight: bold;
+    font-size: 20px;
+    padding:0px 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+
+.header-call{
+    margin-top: 10px;
+}
+.call-icon{
+    font-size: 25px;
+    transform: rotate(-45deg);
+    color: red;
+}
+
+.call-info{
+    margin-top: -5px;
+    font-weight: bolder;
+    color: black;
+}
+.call-info p{
+    margin-top: 8px;
+    margin-bottom: -8px;
+}
+.call-info a{
+   text-decoration: none;
+   color: black;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.button{
+    padding: 8px 30px;
+    font-size: 20px;
+    background: #e83b3e;
+    border: none;
+}
+.button:hover{
+    background: black;
+    border: none;
+}
+
+/* Banner Section Section Start */
+.banner{
+    background-image: url(./img/main-banner2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.banner-text{
+    height: 100vh;
+    padding: 200px 0px;
+}
+.banner-text span{
+    font-size: 20px;
+}
+.banner-text h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-social-link p{
+    vertical-align: inherit;
+    position: relative;
+    margin:0 10px;
+}
+.banner-social-link p::after{
+    content: '';
+    position: absolute;
+    right: -38px;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background-color: #111111;
+}
+.social-icon{
+    padding-left: 10px;
+}
+.social-icon i{
+    margin-right: 15px;
+}
+.social-icon i:hover{
+    color: #e83b3e;
+}
+/* Banner Section Section End */
+
+/* Banner-Scroll Section Start */
+.item-img{
+    position: relative;
+    animation: mymove 11s infinite;
+  }
+  
+  @keyframes mymove {
+    from {right: 0px;}
+    to {right: 1250px;}
+  }
+/* Banner-Scroll Section End */
+
+/* About Section Start */
+.about{
+    padding: 150px 0px;
+}
+.about-left{
+    position: relative;
+    margin-right: 40px;
+}
+.inner-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.inner-img img{
+    position: relative;
+}
+.inner-img-text{
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    text-align: center;
+}
+.inner-img-text span{
+    font-size: 80px;
+    color: #e83b3e;
+    font-weight: bold;
+}
+.inner-img-text p{
+    margin-top: -15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-right{
+    width: 100%;
+    box-sizing: border-box;
+}
+.about-text span{
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.about-text h1{
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+.about-text p{
+    font-size: 14px;
+}
+
+.about-list{}
+.about-list p{
+    font-size: 20px;
+}
+.about-list ul{
+    margin-left: -30px;
+}
+.about-list li{
+    list-style: none;
+    font-size: 20px;
+}
+.about-list li i{
+    font-size: 30px;
+    margin-right: 15px;
+    color: #e83b3e;
+}
+
+/* About Section End */
+
+/* Transparent Section Start */
+.transparent{
+    background: #f9fafb;
+    padding: 150px 0px;
+}
+.trans-img{
+    position: relative;
+}
+.play-btn{
+    position: absolute;
+    right: 280px;
+    bottom: 80px;
+}
+.play-btn i{
+    font-size: 25px;
+    color: #fff;
+    background: #e83b3e;
+    padding: 18px 20px;
+    border-radius: 50%;
+    border: 15px solid #fff;
+    transition: 0.4s;
+    position: relative;
+}
+.play-btn:hover i{
+    color:#e83b3e;
+    background: #fff;
+    border-color:#e83b3e ;
+}
+
+/* .play-btn i::before{
+    
+  }
+  
+  @-webkit-keyframes scaling {
+    From {
+    -webkit-transform: scale(0);
+    }
+    To {
+    -webkit-transform: scale(2.0);
+    } */
+
+.trans-item{
+    background: #fff;
+    padding: 0 10px 10px 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 40px;
+}
+.trans-item:hover{
+    transform: translateY(-10px);
+}
+.item-shap{
+    margin-top: -180px;
+    margin-left: 5px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: #e83b3e28;
+    margin-bottom: 60px;
+}
+.trans-item i{
+    position: absolute;
+    top: 60px;
+    left: 125px;
+    color: #e83b3e;
+    font-size: 50px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+.trans-item i:hover{
+    color:#fff;
+    background: #e83b3e;
+}
+
+.margin-top{
+    margin-top: -30px;
+}
+/* Transparent Section End */
+
+
+/* Funding Section Start */
+.funding{
+    padding: 150px 0px;
+}
+.fund-form{
+    background: #fdebeb;
+}
+
+.calling{
+    padding: 30px;
+    background: #e83b3e;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.calling h1{
+    width: 800px;
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 0px 0 10px;
+    border-right: 1px solid #fff;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+}
+.form-call{
+    box-sizing: border-box;
+}
+.form-call .call-icon{
+    margin-left: 100px;
+}
+.form-call .call-icon i{
+    color: #e83b3e;
+    background: #fff;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.form-call .call-info a{
+    padding: 15px 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+    display: inline-block;
+}
+/* Funding Section End */
+
+/* Company Value section Start */
+.comVal{
+    padding: 100px 0px;
+}
+.val-icon{
+    font-size: 50px;
+    color: #e83b3e;
+    margin-top: 10px;
+}
+/* Company Value section End */
+
+/* Services Section Start */
+.service{
+    background: #f9fafb;
+    padding: 100px 0px;
+}
+.serv-icon, .nav-item{
+    background: #f9fafb;
+}
+.serv-icon i{
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    background:#fff;
+    box-shadow: 0px 1px 8px 4px rgba(0, 0, 0, 0.226);
+}
+/* Services Section End */
+
+
