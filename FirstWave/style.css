@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+
+
+/* Header Section Start */
+.header{
+    padding: 30px 0px;
+    background: #fafbfc;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-top: 7px;
+}
+.logo img{
+    width: 135px;
+    height: auto;
+}
+
+.menu{
+    width: 65%;
+    float: left;
+    margin-top: 7px;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: black;
+}
+.menu ul li a:hover{}
+
+.head-btn{
+    width: 15%;
+    float: right;
+    text-align: right;
+}
+.head-btn a{}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #3cba79;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+/* Header Section End */
+
+
+/* Banner Section Start */
+.banner{
+    padding: 30px 0px;
+    background: #fafbfc;
+}
+.banner-left{
+    width: 50%;
+    float: left;
+    margin: 126px 0px;
+}
+.banner-left h1{
+    font-size: 74px;
+    margin-bottom: 10px;
+}
+.banner-left p{
+    margin-bottom: 10px;
+}
+.banner-left h3{
+    margin-bottom: 15px;
+}
+.banner-left form{
+    margin-bottom: 15px;
+}
+.banner-left form input{
+}
+.banner-left a{
+    /* display: inline-block; */
+    color: #fff;
+}
+
+.banner-right{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.banner-right img{
+    
+}
+/* Banner Section End */
+
+
+/* Brand Section Start */
+.brand{
+    padding: 70px 0px;
+    background: #fafbfc;
+    text-align: center;
+}
+.brand h1{}
+.brand-inner{
+    margin: 20px 0px;
+}
+.brand-item{}
+.brand-item ul{}
+.brand-item ul li{
+    list-style: none;
+    display: inline-block;
+}
+.brand-item ul li a{
+    display: inline-block;
+    margin: 20px 50px;
+}
+.brand-item ul li a img{
+
+}
+/* Brand Section End */
+
+
+/* Costing Section Start */
+.costing{
+    background: #f1f5ff;
+    padding: 40px 0px;
+}
+.costing-text{}
+.costing-text span{
+    color: blue;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.costing-text h1{
+    margin-bottom: 30px;
+}
+.costing-text ul{
+    margin-bottom: 30px;
+}
+.costing-text ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.costing-text ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.188);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: .4s;
+}
+.costing-text ul li:first-child a{
+    background: rgba(0, 0, 255, 0.519);
+    color: #fff;
+}
+.costing-text ul li a:hover{
+    background: rgba(0, 0, 255, 0.519);
+    color: #fff;
+}
+.costing-text h3{
+    margin-bottom: 30px;
+}
+.costing-text p{
+    color: rgba(0, 0, 0, 0.451);
+    margin-bottom: 30px;
+}
+
+.costing-service{}
+.costing-service-item{
+    width: 26%;
+    float: left;
+    padding: 33px;
+    background: #fff;
+    margin: 0px 14px;
+    border-radius: 10px;
+}
+.costing-service-item i{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.costing-service-item p{
+    width: 280px;
+}
+/* Costing Section End */
+
+
+/* Plateform Section Start */
+.plateform{
+    margin: 65px 0px;
+}
+.plateform-left{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.plateform-right{
+    width: 46%;
+    float: right;
+    margin: 30px 0px;
+}
+.plateform-right h1{
+    margin-bottom: 10px !important;
+}
+.plateform-right p{
+    margin-bottom: 10px !important;
+}
+/* Plateform Section End */
